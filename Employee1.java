@@ -1,9 +1,9 @@
-public class Employee{
+public class Employee1{
 	String ename;
 	String eid;
 	String bunit;
 	Double salary;
-	public Employee(String ename, String eid, String bunit, Double salary) {
+	public Employee1(String ename, String eid, String bunit, Double salary) {
 		super();
 		this.ename = ename;
 		this.eid = eid;
