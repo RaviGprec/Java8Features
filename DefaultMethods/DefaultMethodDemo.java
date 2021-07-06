@@ -1,5 +1,5 @@
 
-class TestClass implements InterfaceTest{
+class DefaultMethodDemo implements InterfaceTest{
 	public static void main(String[] args) {
 		InterfaceTest obj = new TestClass();
 		obj.getModel();
