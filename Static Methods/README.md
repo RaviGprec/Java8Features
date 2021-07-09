@@ -1,0 +1,1 @@
+From Java 8, interfaces can also have concrete methods i.e methods with body along with abstract methods. This is the major change introduced to interfaces in Java 8 to help Java API developers to update and maintain the interfaces. The interfaces can have concrete methods either in the form of default methods or static methods.
