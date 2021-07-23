@@ -15,7 +15,7 @@ public class Java8Interfaces implements NewInterface{
 		//obj.staticMethod();//This will give ERROR as staticMethod() belongs to NewInterfaces only
 		NewInterface.staticMethod();
 		obj.abstractMethod();
-		staticMethod();
+		staticMethod();//This will call Java8Interfaces's method not it's parent. So this will re-direct ti line21 instead if line6
 	}
 	//This is also possible but this is not overriding of NewInterfaces interface but this is just like normal method
 	static void staticMethod() {
